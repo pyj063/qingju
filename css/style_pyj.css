@@ -1,0 +1,271 @@
+body{background-color: #FFFFFF!important;}
+.personalInfo1,.personalInfo3{font-size: 0.68rem;color: #999999;margin-bottom: 0.24rem!important;}
+.personalInfo2{font-size: 0.68rem;color: #999999;}
+
+.btn_submit,.btn_submit1,.btn_submit2,{
+	width: 90%;
+	height: 1.56rem;
+	background-color: #ff5704;
+	border-radius: 0.24rem;
+	font-size: 0.73rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 1.56rem;
+	letter-spacing: 0.04rem;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 3.64rem;
+}
+.btn_submit1{
+	width: 90%;
+	height: 1.56rem;
+	background-color: #ff5704;
+	border-radius: 0.24rem;
+	font-size: 0.73rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 1.56rem;
+	letter-spacing: 0.04rem;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 5%;
+	margin-top: 2.42rem;
+}
+.btn_submit2{
+	width: 94%;
+	height: 1.56rem;
+	background-color: #ff5704;
+	border-radius: 0.24rem;
+	font-size: 0.73rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 1.56rem;
+	letter-spacing: 0.04rem;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 3%;
+	margin-top: 1.27rem;
+}
+.personalInfo1 .item-after,.personalInfo2 .item-after{
+	width: 65%;
+}
+
+.personalInfo1 .choose,.personalInfo2 .choose,.personalInfo3 .choose{
+	color: #ff5704;
+}
+.personalInfo1 .one,.personalInfo2 .one,.personalInfo3 .one
+{
+	width: 63%;
+	color: #A8ABB0;
+}
+
+
+/***************************编辑*************************/
+
+.bg_choose{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 20;
+	background: rgba(0,0,0,0.5);
+}
+.bg_choose .listblock{
+	width: 75%;
+	height: 8.75rem;
+	margin: 9.02rem auto 0;
+	border-radius: 0.2rem;
+}
+.list-block .item-input{
+	width: 8%;
+	margin-top: 0.05rem;
+}
+.listblock ul{
+	border-radius: 0.2rem;
+}
+
+.personalInfo3 img {
+    vertical-align: middle;
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.2rem;
+}
+
+.personalInfo3 .btn{
+	width: 100%;
+	text-align: right;
+}
+.personalInfo3 .btn img{
+	margin-left: 0.5rem;
+	    margin-right: 0.1rem;
+}
+.personalInfo3 .btn span{
+	min-height: 1.5rem;
+	display: inline-block;
+	line-height: 1.5rem;
+}
+
+/*****************************订单*************************/
+.bg{
+	background: #fff;
+}
+.bg1{
+	background: #eee;
+}
+.orderlist{
+	width: 100%;
+	background: #FFFFFF;
+		font-size: 0.64rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.73rem;
+	letter-spacing: 0rem;
+	color: #666666;
+	padding-left: 0.56rem;
+	padding-bottom: 1.2rem;
+}
+.orderlist .date{
+	margin-right: 0.56rem;
+}
+.personalInfo3 .left{
+	width: 33%;
+}
+.personalInfo3 .left img{
+	width: 5.11rem;
+	height:3.45rem;
+	border-radius: 0.2rem;
+}
+.personalInfo3 .center{
+	width: 51%;
+}
+.personalInfo3 .center h4{
+	font-size: 0.59rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.68rem;
+	letter-spacing: 0.03rem;
+	color: #464646;
+	text-align: left;
+	margin: 0;
+	margin-bottom: 0.25rem;
+	margin-top: 0.2rem;
+}
+.personalInfo3 .center p{
+		font-size: 0.49rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.98rem;
+	letter-spacing: 0.03rem;
+	color: #999999;
+	text-align: left;
+		margin: 0;
+}
+.personalInfo3 .right{
+	width: 16%;
+	height: 3.45rem;
+}
+.personalInfo3 .right .price{
+	font-size: 0.65rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.73rem;
+	letter-spacing: 0rem;
+	color: #ff6733;
+	text-align: right;
+	margin-top: 0.3rem;
+	margin-bottom: 0.6rem;
+}
+.personalInfo3 .right .count{
+	font-size: 0.3rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #999999;
+	text-align: right;
+}
+.star{
+	font-size: 0.59rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.73rem;
+	letter-spacing: 0rem;
+	color: #999999;
+	margin-left: 0.56rem;
+	margin-top: 0.8rem;
+}
+.comment_content{
+	width: 94%;
+    background-color: #f7f5f5;
+    border: solid 0.1rem #dcdcdc;
+	margin-left: 3%;
+	margin-top: 0.71rem;
+}
+.comment_content textarea::-webkit-input-placeholder{
+		font-size: 0.59rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.73rem;
+	letter-spacing: 0rem;
+	color: #999999;
+}
+.comment_content textarea{
+			font-size: 0.59rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.73rem;
+	letter-spacing: 0rem;
+	color: #999999;
+}
+
+#deleteorder{
+		width: 4.35rem;
+	height: 1.52rem;
+	background-color: #ffffff;
+	border-radius: 0.2rem;
+	border: solid 0.02rem #dfdfdf;
+		font-size: 0.68rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 1.52rem;
+	letter-spacing: 0rem;
+	color: #5f5e5e;
+	text-align: center;
+}
+#orderpay{
+		width: 4.35rem;
+	height: 1.52rem;
+	background-color: #f56c0b;
+	border-radius: 0.2rem;
+		font-size: 0.68rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 1.52rem;
+	letter-spacing: 0rem;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 0.5rem;
+}
+#amount{
+	font-size: 0.49rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #5f5e5e;
+	float: left;
+}
+#amount span{
+		font-size: 0.68rem;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0rem;
+	color: #ff6733;
+	margin-left: 0.2rem;
+}
+
+
+
+
+
+
