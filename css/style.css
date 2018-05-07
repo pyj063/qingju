@@ -108,3 +108,187 @@ width: 2.6rem;
 .balance .item span:nth-child(1){font-size: 0.63rem;color: #666;}
 .balance .item span:nth-child(2){font-size: 0.8rem;color: #ff5704;}
 .balance .item .date{font-size: 0.58rem;color: #999999;}
+/*我的优惠券*/
+.b {
+    width: 100%;
+    margin: 0 auto;
+    height: 4.49rem;
+    margin-top: 1rem;
+    border-radius: 0.1rem;
+    background: url(../img/boxborder.png) left top;
+    background-repeat: repeat-y;
+    position: relative;padding-left: 0.4rem;
+}
+.leftyouhui {
+   width: 24%;
+    font-size: 0.24rem;
+    padding-left: 0.4rem;
+    box-sizing: border-box;
+    background-color: #ff5704;
+    height: 100%;
+}
+.leftyouhui p:first-child {
+    color: #FFFFFF;    padding-top: 0.3rem;font-size: 0.5rem;
+}
+
+.leftyouhui p:first-child span {
+   font-size: 1.7rem;
+    color: #fff;
+    margin-left: 0.3rem;
+}
+.topi {    z-index: 999;
+   position: absolute;
+    top: -0.5rem;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    left:23.5%;
+}
+.bottomi {    z-index: 999;
+    position: absolute;
+    bottom:-0.5rem;
+    display: block;
+   width: 1rem;
+    height: 1rem;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    left: 23.5%;
+}
+.rightyouhui {
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 9px;
+   width:76%;
+    font-size: 0.24rem;
+  position: relative;
+    box-sizing: border-box;
+    background-color: #fff;
+    height: 4.49rem;
+}
+.rightyouhui ul{padding-left: 0.6rem;width: 7rem;
+    padding-top: 0.7rem;
+    font-size: 0.5rem;}
+.rightyouhui li{list-style: none;}
+.rightyouhui a{
+position: absolute;
+    right: 0.4rem;
+    top: 1.2rem;
+    padding: 0.3rem 0.8rem;
+    border: 1px solid #ff2732;
+    border-radius: 5px;
+    color: #ff2732;
+}
+.userStatus .button.active{color: #ff5704;
+    border-color: #ff5704;
+    z-index: 100;}
+.leftArrow{color: #8a8a8a;}
+/*填写订单*/
+.titleTxt{font-size: 0.78rem;color: #464646;}
+
+.fr input, .number {
+    display: inline-block;
+    text-align: center;
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    background: rgba(255,255,255,.7);
+    color: #666;
+    border: 1px solid #eee;
+    font-size: .73rem;
+}
+.money{font-size: 0.73rem;color: #f75a2f;}
+.typeprice{font-size: 0.68rem;
+    color: #666;}
+.dataChioce ul{padding-left: 0;}
+.dataChioce ul li{list-style: none;float: left;width: 50%;text-align: center;margin-top: 0.5rem;}
+.dataChioce ul li  span{padding: 0.5rem 1rem;
+    font-size: 0.68rem;
+    color: #666;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 0.4rem;}
+
+.dataChioce ul li .active{background-color: #F56D0A;color: #FFFFFF;}
+input[type='radio'],input[type='checkbox']{
+	width: 20px;
+	height: 20px;
+	vertical-align:middle;
+	opacity: 0;
+
+}
+.input_style{
+	background: url(../img/green.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+.radio_bg{
+	background-position: -118px 0 ;
+}
+.radio_bg_check{
+	background-position: -166px 0 ;
+}
+.oftenVisitor{font-size: 0.68rem;color: #999999;padding-left: 0.3rem;}
+.Visitor li{list-style: none;float: left;width: 20%;text-align: center;margin-right: 5%;}
+.Visitor{padding-left: 0;border-bottom: 1px solid #e7e7e7;    padding-bottom: 1rem;}
+.Visitor li a{
+padding: 0.3rem 0;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 0.6rem;
+    color: #333;
+}
+.edit{
+    display: block;
+    padding-top: 0.5rem;
+    margin-right: 0.8rem;}
+.edit img{
+    display: block;
+    height: 1rem;
+    width: 1rem;}
+.privateInfo p{margin: 0;}
+.marNone{margin-top: 0;margin-bottom: 0;}  
+.personalInfo:before{
+background-color: transparent;
+}
+.yhInfo  .list-block ul:before{background-color: transparent;}
+.yhInfo label{width: 100%;
+    display: flex;
+    justify-content: space-between;}
+.InfoShow{width: 100%;}
+.InfoNone{padding: 5rem 0;}
+/*弹出框*/
+.koulingbg {
+    background-color: #000000;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;top: 0;}
+.sexbox {
+   position: fixed;
+    top: 7rem;
+    z-index: 999999;
+    width: 14rem;
+    background-color: #fff;
+    margin-left: 0.7rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+.sexbox p {
+   border-bottom: 1px solid #f0f0f0;
+    padding: 0 0.5rem;
+    text-align: left;
+    margin: 0.6rem;
+    display: flex;font-size: 0.6rem;
+    justify-content: space-between;
+}
+.sexbox p input{opacity: 1!important;width: 0.6rem;height: 0.6rem;}
+.lxChioce{font-size: 0.8rem;margin-top: 0.6rem;}
+.rqChioce{font-size: 0.8rem;margin-top: 0.6rem;border-bottom: 1px solid #e7e7e7;padding-bottom: 0.5rem;}
+.sum{background-color: #707070;color: #fff;}
+.sum span:nth-child(1){font-size: 0.7rem;float: left;margin-left: 0.3rem;color: #fff;}
+.sum span:nth-child(2){font-size: 0.8rem;float: left;padding-left: 1.3rem;color: #fff;box-sizing: border-box;}
+.immediate{background-color: #F56D0A;color: #fff!important;}
