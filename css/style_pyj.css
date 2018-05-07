@@ -283,6 +283,7 @@ body{background-color: #FFFFFF!important;}
 	letter-spacing: 0.06rem;
 	color: #f75a2f;
 	margin-left: 0.35rem;
+	padding-bottom: 0.78rem;
 }
 .order_price span{
 		font-size: 0.59rem;
@@ -409,7 +410,7 @@ body{background-color: #FFFFFF!important;}
 	background-color: #f8f8f8;
 	border-radius: 0.24rem;
 	border: solid 0.05rem #ff7f00;
-	margin-left: 15%;
+	margin-left: 2.5rem;
 		font-size: 0.54rem;
 	letter-spacing: 0rem;
 	color: #f56c0b;
@@ -451,3 +452,62 @@ body{background-color: #FFFFFF!important;}
 	width: 100%;
 	height: 100%;
 }
+.conment_star{
+	font-size: 0.54rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.98rem;
+	letter-spacing: 0.03rem;
+	color: #464646;
+	text-align: center;
+	height: 1.98rem;
+	line-height: 1.98rem;
+	vertical-align: middle;
+	border: 1px solid #eee;
+}
+.conment_star img{
+	width: 0.59rem;
+	height: 0.54rem;
+	vertical-align: middle;
+	margin: 0 0.1rem;
+}
+.conment_star span{
+	margin-right: 0.2rem;
+	vertical-align: middle;
+}
+.userStatus .onelist{
+	font-size: 0.64rem;
+}
+.listone{
+	width: 0.49rem!important;
+	height: 0.49rem!important;
+	margin-bottom: 0.2rem!important;
+	margin-left: 0.1rem!important;
+}
+.listitems{
+	padding-top: 0.7rem;margin: 0!important;border-bottom: 1px solid #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
